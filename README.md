@@ -1,4 +1,2 @@
 # Tristan's Awesome Website!
-this is totaly not a bot 100%
-no really im not 
-like for real 
+this website is going to be used to learn how to and what to do in Web Design & Development

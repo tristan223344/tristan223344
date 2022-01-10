@@ -4,7 +4,9 @@
         <title>Feliz Navidad!</title>
         <meta charset="utf-8">
     </head>
-    <body>
+    body {
+        background-color: #060;
+        margin: 3vw;}
     <h1></h1>
     <h2>Feliz Navidad<br>
         Feliz Navidad<br>

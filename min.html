@@ -9,9 +9,10 @@ h1, footer {
     text-align: center;
 }
 footer>a, footer>a:visited {
-    text-decoration: none;
-    color: #555;
-}
+    const canvas = document.querySelector('canvas');
+const ctx = canvas.getContext('2d');
+ctx.fillStyle = 'green';
+ctx.fillRect(10, 10, 100, 100);
 </style>
 <script>
 function init() {

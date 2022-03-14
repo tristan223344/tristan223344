@@ -18,7 +18,8 @@ footer {
 }
 footer>a, footer>a:visited {
     text-decoration: none;
-    color: #555;
+    color: rgb(85, 85, 85);
+    
 }
 </style>
 <script>
@@ -37,6 +38,7 @@ function drawSomething() {
   const context = canvas.getContext("2d");
 
   context.fillRect(10, 10, 100, 100);
+  redSquare.fillRect(0, 0, 300, 300);
 }
 window.onload = init;
 </script>
@@ -48,8 +50,6 @@ window.onload = init;
 
 <main>
 <canvas id="myCanvas" width="600" height="200">
-Sorry, your old browser doesn't support the canvas element. Time for a new
-browser!
 </canvas>
 </main>
 

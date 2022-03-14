@@ -1,40 +1,22 @@
-<!DOCTYPE html>
+<!DOCTYPE  html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Canvas Experiment Number 1</title>
+<title>Modern Art</title>
+
 <style>
-h1, footer {
-    text-align: center;
-}
-canvas {
-    border: 1px solid #555;
-    display: table;
-    margin-left: auto;
-    margin-right: auto;
-}
 footer {
-    margin-top: 30px;
+    text-align: center;
 }
 footer>a, footer>a:visited {
     text-decoration: none;
-    color: rgb(85, 85, 85);
-    
-}
-</style>
-<script>
-function init() {
-  var loc = window.location.href;
-  var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
-  var CSSvalidLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' +
-                        loc + '?profile=css3';
-  document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
-  document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
-
-  drawSomething();
-}
-function drawSomething() {
-  var c = document.getElementById("classic");
+    color: #9900cc;
+  </style>
+</head>
+<body>
+ <canvas id="classic" width="750" height="750" style="border:1px solid #000000;"></canvas>
+    <script>
+        var c = document.getElementById("classic");
         
         var redSquare = c.getContext("2d");
         var yellowSquare = c.getContext("2d");
@@ -75,16 +57,18 @@ function drawSomething() {
         line6.fillRect(100, 475, 25, 750);
     </script>
         
-
-<main>
-<canvas id="myCanvas" width="600" height="200">
-</canvas>
-</main>
-
 <footer>
+<a href=".."> <b> Back </b></a>|
 <a id="vLink1"><strong> HTML </strong> Valid! </a> |
 <a id="vLink2"><strong> CSS </strong> Valid! </a>
 </footer>
+<script>
+var loc = window.location.href;
+var HTMLvalidatorLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+var CSSvalidatorLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' +
+                          loc + '?profile=css3';
+document.getElementById("vLink1").setAttribute("href", HTMLvalidatorLinkStr);
+document.getElementById("vLink2").setAttribute("href", CSSvalidatorLinkStr);
+</script>
 </body>
-</head>
 </html>
